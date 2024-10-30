@@ -16,7 +16,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/$(PKG_NAME)
     SECTION:=luci
     CATEGORY:=LuCI
-    SUBMENU:=Applications
+    SUBMENU:=3. Applications
     TITLE:=LuCI support for Frpc
     DEPENDS:=+libc +luci-base +frpc
 endef
