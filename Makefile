@@ -18,7 +18,7 @@ define Package/$(PKG_NAME)
     CATEGORY:=LuCI
     SUBMENU:=3. Applications
     TITLE:=LuCI support for Frpc
-    DEPENDS:=+libc +luci-base +frpc
+    DEPENDS:=+luci-base +frpc
 endef
 
 # 安装文件到相应路径
