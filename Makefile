@@ -16,8 +16,9 @@ include $(INCLUDE_DIR)/package.mk
 define Package/$(PKG_NAME)
     SECTION:=luci
     CATEGORY:=LuCI
+    SUBMENU:=Applications
     TITLE:=LuCI support for Frpc
-    DEPENDS:=+libc
+    DEPENDS:=+libc +luci-base +frpc
 endef
 
 # 安装文件到相应路径
